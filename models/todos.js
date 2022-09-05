@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const todoSchema = new mongoose.Schema({
+const genshinSchema = new mongoose.Schema({
     name: { type: String, required: true },
     element: { type: String, required: true },
     weapon: { type: String, required: true },
@@ -8,6 +8,6 @@ const todoSchema = new mongoose.Schema({
     image: { type: String, required: true }
 });
 
-const Todos = mongoose.model('Todo', todoSchema);
+const Genshin = mongoose.model('Todo', genshinSchema);
 
-module.exports = Todos;
+module.exports = Genshin;

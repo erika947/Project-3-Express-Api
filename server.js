@@ -1,6 +1,10 @@
 //Dependencies
 const express = require('express')
 const mongoose = require('mongoose')
+require('dotenv').config()
+const cors = require('cors')
+const Genshin = require('./models/todos.js')
+const genshinData = require('./utilities/genshinData')
 
 //Environment variables
 const app = express()
@@ -22,10 +26,19 @@ db.on('disconnected', () => console.log('mongo disconnected'))
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json());
 app.use(express.static('public'))
+app.use(cors())
 
 //Routes
-const todosController = require('./controllers/todos')
+const todosController = require('./controllers/todos.js')
+
 app.use('/todos', todosController)
+
+//Seed Route
+app.get('/seed', async (req, res) => {
+    await Genshin.deleteMany({});
+    await Genshin.insertMany(genshinData);
+    res.send('done!');
+  });
 
 
 app.listen(PORT, () => {
