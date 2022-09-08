@@ -55,8 +55,9 @@ router.post('/weapons', (req, res) => {
 //Show
 router.get('/weapons/:id', (req, res)=>{
     console.log('in weapons.get')
-    Todos.findById(req.params.id, (err, foundWeapon)=>{
+    Weapons.findById(req.params.id, (err, foundWeapon)=>{
         res.json(foundWeapon);
+        console.log('foundweapon')
     });
 });
 
