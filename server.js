@@ -4,7 +4,9 @@ const mongoose = require('mongoose')
 require('dotenv').config()
 const cors = require('cors')
 const Genshin = require('./models/todos.js')
+const Weapons = require('./models/weapons')
 const genshinData = require('./utilities/genshinData')
+const weaponsData =require('./utilities/weaponsData')
 
 //Environment variables
 const app = express()
@@ -34,13 +36,23 @@ const todosController = require('./controllers/todos.js')
 app.use('/todos', todosController)
 
 //Seed Route
-app.get('/seed', async (req, res) => {
+app.get('/genshin/seed', async (req, res) => {
     await Genshin.deleteMany({});
     await Genshin.insertMany(genshinData);
+    
+    res.send('done!');
+  });
+
+  //Weapons Seed Route
+app.get('/weapons/seed', async (req, res) => {
+    await Weapons.deleteMany({});
+    await Weapons.insertMany(weaponsData);
+    
     res.send('done!');
   });
 
 
+  
 app.listen(PORT, () => {
     console.log(`*** Listening on http://localhost:${PORT} ***`)
 }) 

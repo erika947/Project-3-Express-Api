@@ -5,6 +5,7 @@ const genshinSchema = new mongoose.Schema({
     element: { type: String, required: true },
     weapon: { type: String, required: true },
     info: { type: String, required: true },
+    portrait: { type: String, required: true},
     image: { type: String, required: true }
 });
 
