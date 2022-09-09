@@ -53,19 +53,19 @@ router.post('/weapons', (req, res) => {
 
 //Edit - React will handle our Edit route
 //Show
-// router.get('/weapons/:id', (req, res)=>{
-//     console.log('in weapons.get')
-//     Weapons.findById(req.params.id, (err, foundWeapon)=>{
-//         res.json(foundWeapon);
-//         console.log('foundweapon')
-//     });
-// });
+router.get('/weapons/:id', (req, res)=>{
+    console.log('in weapons.get')
+    Weapons.findById(req.params.id, (err, foundWeapon)=>{
+        res.json(foundWeapon);
+        console.log('foundweapon')
+    });
+});
 
-// router.get('/:id', (req, res)=>{
-//     Todos.findById(req.params.id, (err, foundTodo)=>{
-//         res.json(foundTodo);
-//     });
-// });
+router.get('/:id', (req, res)=>{
+    Todos.findById(req.params.id, (err, foundTodo)=>{
+        res.json(foundTodo);
+    });
+});
 
 
 
