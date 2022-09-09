@@ -6,6 +6,9 @@ This is the data and routes that are going to be used in our frontend applicatio
 * https://genshin-api-erika.herokuapp.com/todos | Character Database
 * https://genshin-api-erika.herokuapp.com/todos/weapons | Weapons Database
 
+Github URL:
+* https://github.com/erika947/Project-3-Express-Api.git
+
 ## Routes
 ---
    VERB 		 | 		  PATH 		 |  	 DESCRIPTION
