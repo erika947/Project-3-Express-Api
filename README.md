@@ -1,9 +1,10 @@
 # Genshin Impact Api Backend
+What I wanted to do with my backend it be able to create two database schemas that will allow for the user to browse the website for different info base on the character or weapon they selected.
 
 ## Base URL link:
 This is the data and routes that are going to be used in our frontend application. this is the link that will lead you to the info that is used in these pages:
-* https://genshin-api-erika.herokuapp.com/todos
-* https://genshin-api-erika.herokuapp.com/todos/weapons
+* https://genshin-api-erika.herokuapp.com/todos | Character Database
+* https://genshin-api-erika.herokuapp.com/todos/weapons | Weapons Database
 
 ## Routes
 ---
@@ -23,10 +24,11 @@ DELETE | /:id | delete a page |
 
 ## Images
 ---
-* Credits of images go to [Genshin Impact Wiki](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)
+* Credits of images and info go to [Genshin Impact Wiki](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)
+* Credits of Images and Info go to [The Offical Genshin Impact webPage](https://genshin.hoyoverse.com/en/character/mondstadt?char=0)
 * Wallpaper by [Geulach](https://whvn.cc/x81glo)
 
-## Characters
+## Character's Included
 ---
 * Zhongli
 * Diluc
@@ -50,17 +52,29 @@ DELETE | /:id | delete a page |
 * Venti
 
 
-## Weapons
+## Weapons Included
 ---
-### Claymore's
+
 * Wolf's Gravestone
 * The Unforged
 *  Skyward Pride
 * The Prototype Archaic
-
-### Polearm's
 * Engulfing Lighting
-* etc more to be added(Sword,Bow, and Catas)
+* Vortext Vanquisher
+* Primordial Jade Winged-Spear
+* Staff of Homa
+* Mistplitter Reforged
+* Skyward Blade
+* Haran Geppaku Futsu
+* Freedom-Sworn
+* Polar Star 
+* Amos 
+* Aqua Aimulacra
+* Thundering Pulse
+* Memory of Dust
+* Evelasting Moonglow
+* Skyward Atlas
+* Kagura's Verity
 
 
 

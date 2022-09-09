@@ -11,7 +11,7 @@ const weaponsData = [
 
     {
         info: "The Unforged is a Liyue claymore. Capable of driving away evil spirits and wicked people alike, this edgeless claymore seems to possess divine might.",
-    
+
         tool: "The Unforged",
 
         rarity: "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Icon_5_Stars.png/",
@@ -20,7 +20,7 @@ const weaponsData = [
     },
 
     {
-        info: "A claymore that symbolizes the pride of Dvalin soaring through the skies. When swung, it emits a deep hum as the full force of Dvalin's command of the sky and the wind is unleashed.", 
+        info: "A claymore that symbolizes the pride of Dvalin soaring through the skies. When swung, it emits a deep hum as the full force of Dvalin's command of the sky and the wind is unleashed.",
 
         tool: "Skyward Pride",
 
@@ -33,7 +33,7 @@ const weaponsData = [
         info: "Prototype Archaic is a Liyue claymore. An ancient greatsword discovered in the Blackcliff Forge. It swings with such an immense force that one feels it could cut straight through reality itself.",
 
         tool: "The Prototype Archaic",
-        
+
         rarity: "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Icon_4_Stars.png/",
 
         image: "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Weapon_Prototype_Archaic.png/",
@@ -48,22 +48,22 @@ const weaponsData = [
 
         image: "https://static.wikia.nocookie.net/gensin-impact/images/2/21/Weapon_Engulfing_Lightning.png/",
     },
-    
+
     {
         info: "This sharp polearm can seemingly pierce through anything. When swung, one can almost see the rift it tears in the air.",
-        
+
         tool: "Vortex Vanquisher",
 
         rarity: "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Icon_5_Stars.png/",
-        
+
         image: "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Weapon_Vortex_Vanquisher.png/",
     },
-    
+
     {
         info: "A jade polearm made by the archons, capable of slaying ancient beasts.",
 
         tool: "Primordial Jade Winged-Spear",
-        
+
         rarity: "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Icon_5_Stars.png/",
 
         image: "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Weapon_Primordial_Jade_Winged-Spear.png/",
@@ -71,22 +71,22 @@ const weaponsData = [
 
     {
         info: 'A "firewood staff" that was once used in ancient and long-lost rituals.',
-        
+
         tool: "Staff of Homa",
-        
+
         rarity: "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Icon_5_Stars.png/",
-        
+
         image: "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Weapon_Staff_of_Homa.png/",
     },
-    
+
     {
         info: 'A sword that blazes with a fierce violet light. The name "Reforged" comes from it having been broken once before.',
 
-        tool: "Engulfing Mistsplitter Reforged",
+        tool: "Mistsplitter Reforged",
 
         rarity: "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Icon_5_Stars.png/",
 
-        image: "https://static.wikia.nocookie.net/gensin-impact/images/2/21/Weapon_Engulfing_Lightning.png/",
+        image: "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Weapon_Mistsplitter_Reforged.png/",
     },
 
     {
@@ -169,7 +169,7 @@ const weaponsData = [
 
         image: "https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Weapon_Memory_of_Dust.png/"
     },
-    
+
     {
         info: "A string of lovely jasper from the deep sea. It shines with a pure radiance like that of the moon, and just as ever-distant.",
 
@@ -179,7 +179,7 @@ const weaponsData = [
 
         image: "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Weapon_Everlasting_Moonglow.png/"
     },
-    
+
     {
         info: "A cloud atlas symbolizing Dvalin and his former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.",
 
@@ -189,7 +189,7 @@ const weaponsData = [
 
         image: "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Weapon_Skyward_Atlas.png/"
     },
- 
+
     {
         info: "The bells used when performing the Kagura Dance, blessed by the Guuji herself. The scent of the Sacred Sakura tree lingers on it.",
 
