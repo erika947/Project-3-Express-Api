@@ -7,7 +7,7 @@ This is the data and routes that are going to be used in our frontend applicatio
 * https://genshin-api-erika.herokuapp.com/todos/weapons | Weapons Database
 
 Github URL:
-* https://github.com/erika947/Project-3-Express-Api.git
+* https://github.com/erika947/Porject-3-Genshin-Info.git
 
 ## Routes
 ---
